@@ -31,3 +31,20 @@
 .drag-completed {
   background-color: rgb(275, 38, 0);
 }
+
+@media (max-width: 1100px) {
+  .todos {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 95%;
+    flex-direction: column;
+  }
+  .todos {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+}
